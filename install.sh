@@ -13,6 +13,9 @@ apt-get update && apt-get install -y \
 	scons \
 	binutils
 
+# Install gvm
+echo "================= Install gvm ==================="
+curl -s -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer | bash
 
 #!/bin/bash
 for file in /u12gol/version/*;

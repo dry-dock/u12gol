@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Install gvm
-echo "================= Install gvm ==================="
-curl -s -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer | bash
-
 #set the source path of gvm. $HOME points to '/root'
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source $HOME/.gvm/scripts/gvm
 
